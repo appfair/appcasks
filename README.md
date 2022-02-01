@@ -4,7 +4,7 @@ Forks of the [https://github.com/appfair/appcasks.git](https://github.com/appfai
 
 [App Fair.app](https://www.appfair.app) uses the Homebrew Cask API to obtain information about the available catalog of apps. This metadata includes download URLs, cryptographic checksums, and information on how to install and un-install the apps. However, the central Homebrew catalog ([by design](https://docs.brew.sh/Acceptable-Casks#homebrew-cask-is-not-a-discoverability-service)) does not include any additional metadata about applications that it indexes.
 
-The [appcasks](https://github.com/appfair/appcasks.git) repository is designed to fill this gap by enabling a creator-driven system for providing additional catalog information for individual apps. This includes the app's icon, categories, extended descriptions, screenshots and screencasts. It enables your app to be more easily discovered by users of App Fair.app, and provides an enhanced browsing experience to promote and inform potential users about your app's capabilities.
+The [appcasks](https://github.com/appfair/appcasks.git) repository is designed to fill this gap by enabling a creator-driven system for providing additional catalog information for individual apps. This includes the app's icon, categories & keywords, extended descriptions, screenshots and screencasts. It enables your app to be more easily discovered by users of App Fair.app, and provides an enhanced browsing experience to promote and inform potential users about your app's capabilities.
 
 ## Usage
 
