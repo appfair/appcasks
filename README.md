@@ -15,10 +15,9 @@ If you are the vendor of an app that is already discoverable using App Fair.app 
 3. Add a verified domain for your organization that exactly matches the domain of the `homepage` for the cask by following [these instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-organization-site). Set this homepage to be the organization's public home page in GitHub. This homepage must appear as "verified" when displayed by GitHub in order for the app metadata to be accepted by the App Fair.
 4. Fork this `appcasks` repository into your organization.
 5. Go to the settings for your fork, select the `Pages` setting, and activate pages for the source `/ (root)` on `Branch: main`. GitHub pages must be enabled for the fork in order for the enhanced metadata to be included in the catalog.
-6. Go to the **Releases** page for your `appcasks` fork and create a new release with a tag whose name exactly matches the token for the app your are adding information for.
-7. Add an "AppIcon.png" image for your app – this will show up as the thumbnail for your app's entry in the App Fair catalog.
-8. Add a "README.md" file with the metadata for your app. The contents should be formatted as per the [App Fair guide](https://www.appfair.net/#how-can-i-set-the-description-of-my-app-in-the-app-fair-catalog).
-9. Add screenshots for your app, ideally in both dark and light modes, with the filenames structured as per the [App Fair screenshots naming conventions](https://www.appfair.net/#app-screenshots).
+6. Go to the **Releases** page for your `appcasks` fork and create a new release with a tag whose name exactly matches the token for the app your are adding information for. The release description should be the description if your app as should appear in the catalog.
+7. Add an "AppIcon.png" image for your app by adding it to the "Attach binaries" section. This image will show up as the thumbnail for your app's entry in the App Fair catalog.
+8. Add screenshots for your app, ideally in both dark and light modes, with the filenames structured as per the [App Fair screenshots naming conventions](https://www.appfair.net/#app-screenshots).
 
 If your organization has multiple apps, repeat the final 4 steps with the token name for the other apps. A single repository can have up to 25 associated app tokens.
 
